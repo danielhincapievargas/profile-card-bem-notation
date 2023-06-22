@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 10px;
+}
+
+.card-container {
+    width: 80%;
+    max-width: 600px;
+    min-width: 350px;
+    height: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 5px blueviolet;
+    border-radius: 5px;
+}
+
+.card-container__hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-container__profile-img{
+    background-image: url(./assets/portrait.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: solid 3px blueviolet;
+}
+.card-container__name {
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    color: blueviolet;
+}
+
+.card-container__stars {
+    margin-bottom: 15px;
+}
+.checked {
+    color: blueviolet;
+}
+
+.card-text__p {
+    font-size: 0.9rem;
+    text-align:justify;
+    margin-bottom: 15px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn {
+    all: unset;
+    border: solid 2px blueviolet;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    font-size: 1rem;
+    color: blueviolet;
+    border-radius: 5px;
+}
+
+.buttons--color {
+    background-color: blueviolet;
+    color: white;
+}
+
