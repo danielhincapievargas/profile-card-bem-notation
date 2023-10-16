@@ -4,7 +4,7 @@ This project is about a business card, for which the HTML and CSS have been buil
 
 ### Screenshot
 
-![image]('./assets/profile-card-bem.jpg')
+![image](./assets/profile-card-bem.jpg)
 
 ### BEM Notation
 
